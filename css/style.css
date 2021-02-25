@@ -11,11 +11,23 @@ html{
     margin:0;
     padding:0;
 }
+.main-view{
+    height:100vh;
+    position:relative;
+    overflow:hidden;
+    z-index: -1;
+}
+#mover{
+    position:absolute;
+    top:0;
+    transition: top 1s;
+}
 ul{
     list-style : none;
 }
 nav {
     position:absolute;
+    top:42.5vh;
 }
 .center-container{
     min-width:1000x;
